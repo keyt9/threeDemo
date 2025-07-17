@@ -1,0 +1,55 @@
+{
+  "name": "fafaclient",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --mode development",
+    "build": "vite build --mode development",
+    "dev:pro": "vite --mode production",
+    "build:pro": "vite build --mode production",
+    "preview": "vite preview",
+    "lint": "eslint . --fix",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@vueuse/core": "^13.1.0",
+    "axios": "^1.8.4",
+    "compressorjs": "^1.2.1",
+    "pinia": "^3.0.2",
+    "pinia-plugin-persistedstate": "^4.2.0",
+    "swiper": "^11.2.10",
+    "vue": "^3.5.14",
+    "vue-clipboard3": "^2.0.0",
+    "vue-router": "^4.5.1",
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.10",
+    "@babel/eslint-parser": "^7.27.0",
+    "@babel/preset-env": "^7.27.2",
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
+    "@eslint/js": "^9.26.0",
+    "@vant/auto-import-resolver": "^1.3.0",
+    "@vitejs/plugin-vue": "^5.2.4",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.26.0",
+    "eslint-plugin-vue": "~10.0.1",
+    "globals": "^16.1.0",
+    "husky": "^8.0.0",
+    "mrm": "^4.1.22",
+    "postcss": "^8.5.3",
+    "sass": "^1.86.3",
+    "tailwindcss": "3.4.17",
+    "unplugin-auto-import": "^19.1.2",
+    "unplugin-vue-components": "^28.5.0",
+    "vite": "^6.3.5",
+    "vite-plugin-compression": "^0.5.1",
+    "vite-plugin-svg-icons": "^2.0.1",
+    "vite-plugin-vue-devtools": "^7.7.6",
+    "vue-eslint-parser": "^10.1.3"
+  },
+  "lint-staged": {
+    "*.{js,vue}": "eslint --cache --fix"
+  }
+}

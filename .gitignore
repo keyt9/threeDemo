@@ -1,24 +1,31 @@
-# Nestjs specific
-/dist
-/node_modules
-/build
-/tmp
-
 # Logs
 logs
 *.log
 npm-debug.log*
-pnpm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
 lerna-debug.log*
+.eslintcache
+node_modules
+.DS_Store
+dist
+dist-ssr
+coverage
+*.local
 
-# dotenv environment variable files
-.env
-.env.development
-.env.test
-.env.production
+/cypress/videos/
+/cypress/screenshots/
 
-# temp directory
-.temp
-.tmp
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+*.tsbuildinfo
+*.cursorrules
