@@ -1,6 +1,6 @@
-# FaFaClient
+# threeDemo
 
-基于 Vue 3 + Vite + Vant + Pinia 的移动端项目。
+基于 Vue 3 + Vite + element + Pinia 的移动端项目。
 
 ## 环境要求
 

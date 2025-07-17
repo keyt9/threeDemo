@@ -1,7 +1,8 @@
 import { fileURLToPath, URL } from 'node:url'
 import { defineConfig, loadEnv } from 'vite'
 import vue from '@vitejs/plugin-vue'
-// vant 按需
+// element-plus 按需
+import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
 // gzip 压缩
@@ -118,10 +119,10 @@ export default defineConfig(({ command, mode }) => {
       }),
       // vueDevTools(),
       AutoImport({
-        resolvers: []
+        resolvers: [ElementPlusResolver()]
       }),
       Components({
-        resolvers: []
+        resolvers: [ElementPlusResolver()]
       })
     ],
 

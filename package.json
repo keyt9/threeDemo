@@ -16,12 +16,13 @@
     "@vueuse/core": "^13.1.0",
     "axios": "^1.8.4",
     "compressorjs": "^1.2.1",
+    "element-plus": "^2.10.4",
     "pinia": "^3.0.2",
     "pinia-plugin-persistedstate": "^4.2.0",
     "swiper": "^11.2.10",
-    "vue": "^3.5.14",
+    "vue": "^3.5.17",
     "vue-clipboard3": "^2.0.0",
-    "vue-router": "^4.5.1",
+    "vue-router": "^4.5.1"
   },
   "devDependencies": {
     "@babel/core": "^7.26.10",
